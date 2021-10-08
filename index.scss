@@ -1,0 +1,34 @@
+body::before{
+    display: block;
+    content: '';
+    height: 70px; 
+}
+
+
+.dr{
+    border: 2px solid red;
+}
+
+.db{
+    border: 2px solid blue;
+}
+
+
+.navbar-toggler{
+    color: red;
+}
+
+#map{
+    border-radius: 10px; 
+    width: 100%; 
+    height: 100%;
+}
+
+
+@media all and (max-width: 767px){
+    #map{
+        margin-top: 20px;
+        height: 200px;
+        width: auto;
+    }
+}
